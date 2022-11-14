@@ -31,7 +31,7 @@ if req.status_code==200 and req.text != err_msg:
         subdo.write(res_domain + "\n")
     subdo.close()
     
-    print(Fore.GREEN+"Total site found: {}".format(i))
+    print(Fore.GREEN+"Total subdomain found: {}".format(i))
 else:
     sys.exit(0)
     os._exit(0)
